@@ -31,3 +31,38 @@
     height: 100vh;
     width: 100vw;
 }
+/* styling the header content */
+.header-content{
+    position: absolute;
+    top:35%;
+    left:25%;
+    color: #fff;
+}
+ h1{
+    font-size: 60px;
+    text-align: center;
+}
+.header-content p{
+    margin: 20px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+.header-content small{
+    font-size: 20px;
+    /* margin-top: 35px; */
+}
+.input-name{
+    margin-top: 25px;
+}
+.header-content input{
+    padding: 14px 8px;
+    width: 450px;
+    font-size: 20px;
+}
+.header-content button{
+    padding: 13px 45px ;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 23px;
+    border: none;
+}
