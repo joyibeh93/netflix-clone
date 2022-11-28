@@ -69,7 +69,7 @@
 .section-TvDisplay,.download{
     background-color: black;
     color: #fff;
-    border: 7px solid #333;
+    border: 5px solid #333;
     position: relative;
 }
 .TvDisplay,.download-dov{
@@ -103,7 +103,7 @@ padding: 50px;
 .img-cnt{
     width: 350px;
     height: 100px;
-    border:3px solid #333;
+    border:1px solid #333;
     border-radius: 8px;
     position: absolute;
     top: 350px;
@@ -119,12 +119,40 @@ padding: 50px;
 .download-cnt{
     margin-top: 30px;
 }
-.download-cnt,.start{
-    font-weight: 900px;
+.start{
+    font-weight: bolder;
     font-size: 18px;
+}
+.dwnld{
+    color:blue;
 }
 .download-icon{
     display: block;
     margin-top: 20px ;
-    width: 50%
+    width: 50%;
 }
+.download-shows{
+    margin-top: 150px;
+}
+.download-shows h2,.watch-every h2{
+font-size: 45px;
+}
+.download-shows p,.watch-every p{
+    font-size: 25px;
+    width: 450px;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+.watch-every{
+    background-color: black;
+    color: #fff;
+    padding: 50px 0px;
+}
+.watch-every-unlimited{
+    
+    margin-left: 170px;
+}
+/* @media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px)
+.animation-card.flipped .animation-card-container {
+    flex-flow: column;
+} */
