@@ -66,8 +66,11 @@
     font-size: 25px;
     border: none;
 }
-.section-TvDisplay,.download{
+main{
     background-color: black;
+}
+.section-TvDisplay,.download{
+ 
     color: #fff;
     border: 5px solid #333;
     position: relative;
@@ -111,7 +114,7 @@ padding: 50px;
     display: flex;
     justify-content: space-around;
     padding: 5px;
-    background-color: black;
+
 }
 .img-cnt img .download-icon{
     width: 80%;
@@ -144,7 +147,6 @@ font-size: 45px;
     margin-top: 10px;
 }
 .watch-every{
-    background-color: black;
     color: #fff;
     padding: 50px 0px;
 }
@@ -152,6 +154,55 @@ font-size: 45px;
     
     margin-left: 170px;
 }
+
+/* STYLING THE ACCORDIAN */
+.accordian-session{
+    padding: 20px;
+}
+#accordian{
+    margin: 100px auto;
+    width: 800px;
+    color: #fff;
+}
+#accordian li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #303030;
+}
+#accordian li label{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 26px;
+    word-spacing: 3px;
+}
+#accordian li label span{
+    font-size: 26px;
+}
+#accordian label + input[type="radio"]{
+    display: none;
+}
+#accordian .content{
+    padding: 5px 10px;
+    line-height: 1.5em;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+    font-size: 20px;
+}
+.content2{
+    margin-top: 30px;
+}
+#accordian label + input[type="radio"]:checked +.content{
+    max-height: 500px;
+}
+
 /* @media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px)
 .animation-card.flipped .animation-card-container {
     flex-flow: column;
