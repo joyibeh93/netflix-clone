@@ -47,26 +47,27 @@
     font-size: 30px;
     text-align: center;
 }
-.header-content small{
+.header-content small,.cnt small{
     font-size: 20px;
+    color: #fff;
     /* margin-top: 35px; */
 }
 .input-name{
     margin-top: 25px;
 }
-.header-content input{
+.header-content input,.cnt input{
     padding: 15px 8px;
     width: 450px;
     font-size: 20px;
 }
-.header-content button{
+.header-content button,.cnt button{
     padding: 14px 45px ;
     background-color: #e50914;
     color: #fff;
     font-size: 25px;
     border: none;
 }
-main{
+main,footer{
     background-color: black;
 }
 .section-TvDisplay,.download{
@@ -114,6 +115,7 @@ padding: 50px;
     display: flex;
     justify-content: space-around;
     padding: 5px;
+    background-color: #000;
 
 }
 .img-cnt img .download-icon{
@@ -156,14 +158,24 @@ font-size: 45px;
 }
 
 /* STYLING THE ACCORDIAN */
+.Questions{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-top:5px ;
+}
 .accordian-session{
-    padding: 20px;
+    padding: 10px;
+}
+.accordian-container{
+    margin-top: 0;
 }
 #accordian{
     margin: 100px auto;
     width: 800px;
     color: #fff;
 }
+
 #accordian li{
     list-style: none;
     width: 100%;
@@ -201,6 +213,30 @@ font-size: 45px;
 }
 #accordian label + input[type="radio"]:checked +.content{
     max-height: 500px;
+}
+.cnt{
+   text-align: center;
+   margin-top: 0;
+   margin-bottom: 30px;
+}
+footer{
+    border-top: 5px solid #333;
+    color: #737373;
+    padding: 50px;
+    font-size: 14px;
+}
+.footer-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20px 250px;
+}
+.foot-note{
+    margin-left:290px ;
+}
+.footer-ul li{
+    list-style: none;
+    line-height: 2.5em;
 }
 
 /* @media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px)
